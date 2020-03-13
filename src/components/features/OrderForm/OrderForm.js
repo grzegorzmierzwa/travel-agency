@@ -10,7 +10,6 @@ import {Row, Col} from 'react-flexbox-grid';
 
 
 const OrderForm = ({tripCost, options, setOrderOption}) => (
-  console.log('options', options),
   <Row>
     {pricing.map(option => (
       <Col key={option.id} md={4}>
