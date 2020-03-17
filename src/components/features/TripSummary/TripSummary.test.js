@@ -56,4 +56,17 @@ describe('Component TripSummary', () => {
     expect(component.find('.tags')).toHaveLength(0);
   });
 
+  it('should render tags in spans and in corect order', () => {
+    const component = shallow(<TripSummary id='abc' image='image.jpg' name='name' days={1} tags={['tag1', 'tag2', 'tag3']} cost='cost'/>);
+
+    expect(component.find('.tag').at(0).text()).toEqual('tag1');
+    expect(component.find('.tag').at(0).type()).toEqual('span');
+    expect(component.find('.tag').at(1).text()).toEqual('tag2');
+    expect(component.find('.tag').at(1).type()).toEqual('span');
+    expect(component.find('.tag').at(2).text()).toEqual('tag3');
+    expect(component.find('.tag').at(2).type()).toEqual('span');
+
+    // console.log(component.debug());
+  });
+
 });
