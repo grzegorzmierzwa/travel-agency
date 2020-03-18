@@ -1,5 +1,5 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 import styles from './OrderOption.scss';
 
@@ -35,6 +35,13 @@ const OrderOption = ({name, type,  id, setOrderOption, ...otherProps}) => {
       </div>
     );
   }
+};
+
+OrderOption.propTypes = {
+  name: PropTypes.string,
+  type: PropTypes.string,
+  id: PropTypes.string,
+  setOrderOption: PropTypes.func,
 };
 
 
