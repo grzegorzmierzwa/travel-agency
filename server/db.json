@@ -18,37 +18,40 @@
       "features": [],
       "adults": 1,
       "children": 0,
-      "name": "",
       "contact": "",
       "start-date": "",
-      "totalCost": "$139,399",
+      "totalCost": "$29,319",
       "id": 2
-    },
-    {
-      "car-rental": "",
-      "accommodation": "hotel",
-      "features": [],
-      "adults": 1,
-      "children": 0,
-      "name": "",
-      "contact": "",
-      "start-date": "",
-      "totalCost": "$139,399",
-      "id": 3
     },
     {
       "car-rental": "suv",
       "accommodation": "suite",
       "features": [
         "pool",
-        "kitchen"
+        "kitchen",
+        "all-inclusive"
       ],
       "adults": "2",
       "children": "1",
-      "name": "a",
-      "contact": "v",
-      "start-date": "23.03.2020",
-      "totalCost": "$353,996",
+      "name": "Pleasant trek in outstanding Togo",
+      "contact": "496133",
+      "start-date": "27.04.2020",
+      "totalCost": "$79,298",
+      "id": 3
+    },
+    {
+      "car-rental": "luxury",
+      "accommodation": "suite",
+      "features": [
+        "security",
+        "pool",
+        "kitchen"
+      ],
+      "adults": "3",
+      "children": "2",
+      "contact": "mail@mail.com",
+      "start-date": "6.04.2020",
+      "totalCost": "$108,457",
       "id": 4
     },
     {
@@ -57,48 +60,89 @@
       "features": [],
       "adults": 1,
       "children": 0,
-      "name": "b",
-      "contact": "a",
+      "contact": "",
       "start-date": "",
-      "totalCost": "$139,399",
+      "totalCost": "$22,815",
       "id": 5
     },
     {
       "car-rental": "luxury",
-      "accommodation": "suite",
+      "accommodation": "house",
       "features": [
-        "pool",
+        "security",
         "kitchen"
       ],
-      "adults": 1,
-      "children": "1",
-      "name": "bddd",
-      "contact": "aaaa",
-      "start-date": "2.04.2020",
-      "totalCost": "$106,550",
+      "adults": "4",
+      "children": 0,
+      "contact": "154651632",
+      "start-date": "21.04.2020",
+      "totalCost": "$111,874",
       "id": 6
     },
     {
       "car-rental": "",
-      "accommodation": "hotel",
-      "features": [],
+      "accommodation": "house",
+      "features": [
+        "security",
+        "pool",
+        "kitchen",
+        "all-inclusive"
+      ],
       "adults": 1,
       "children": 0,
-      "contact": "",
-      "start-date": "",
-      "totalCost": "$68,733",
+      "name": "hgfds",
+      "contact": "asdfg",
+      "start-date": "28.04.2020",
+      "totalCost": "$28,869",
       "id": 7
     },
     {
-      "car-rental": "",
-      "accommodation": "hotel",
-      "features": [],
+      "car-rental": "luxury",
+      "accommodation": "",
+      "features": [
+        "security",
+        "pool"
+      ],
       "adults": 1,
-      "children": 0,
-      "contact": "",
-      "start-date": "",
-      "totalCost": "$68,733",
+      "children": "2",
+      "name": "aaa",
+      "contact": "ddd",
+      "start-date": "7.04.2020",
+      "totalCost": "$285,397",
       "id": 8
+    },
+    {
+      "car-rental": "suv",
+      "accommodation": "hotel",
+      "features": [
+        "security",
+        "pool",
+        "kitchen"
+      ],
+      "adults": "9",
+      "children": "6",
+      "name": "adswswss",
+      "contact": "aas@dfde",
+      "start-date": "28.04.2020",
+      "totalCost": "$396,227",
+      "id": 9
+    },
+    {
+      "car-rental": "suv",
+      "accommodation": "suite",
+      "features": [
+        "all-inclusive",
+        "kitchen",
+        "security"
+      ],
+      "adults": "4",
+      "children": "3",
+      "name": "xyz123",
+      "contact": "000111222",
+      "start-date": "21.04.2020",
+      "totalCost": "$179,954",
+      "tripId": "5cc1d10181a30e85c8d9ad4a",
+      "id": 10
     },
     {
       "car-rental": "",
@@ -106,10 +150,177 @@
       "features": [],
       "adults": 1,
       "children": 0,
+      "name": "",
       "contact": "",
       "start-date": "",
-      "totalCost": "$68,733",
-      "id": 9
+      "totalCost": "$29,319",
+      "tripId": "5cc1d10181a30e85c8d9ad4a",
+      "tripCountry": {
+        "currencies": [
+          {
+            "code": "XOF",
+            "name": "West African CFA franc",
+            "symbol": "Fr"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "fr",
+            "iso639_2": "fra",
+            "name": "French",
+            "nativeName": "français"
+          }
+        ],
+        "flag": "https://restcountries.eu/data/tgo.svg",
+        "name": "Togo",
+        "alpha2Code": "TG",
+        "alpha3Code": "TGO",
+        "capital": "Lomé",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "population": 7143000,
+        "timezones": [
+          "UTC"
+        ],
+        "borders": [
+          "BEN",
+          "BFA",
+          "GHA"
+        ],
+        "trips": [
+          "5cc1d10181a30e85c8d9ad4a",
+          "5cc1d101bc3e2bc2d8ca030d"
+        ]
+      },
+      "id": 11
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "",
+      "contact": "",
+      "start-date": "",
+      "totalCost": "$29,319",
+      "tripId": "5cc1d10181a30e85c8d9ad4a",
+      "tripCountry": {
+        "currencies": [
+          {
+            "code": "XOF",
+            "name": "West African CFA franc",
+            "symbol": "Fr"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "fr",
+            "iso639_2": "fra",
+            "name": "French",
+            "nativeName": "français"
+          }
+        ],
+        "flag": "https://restcountries.eu/data/tgo.svg",
+        "name": "Togo",
+        "alpha2Code": "TG",
+        "alpha3Code": "TGO",
+        "capital": "Lomé",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "population": 7143000,
+        "timezones": [
+          "UTC"
+        ],
+        "borders": [
+          "BEN",
+          "BFA",
+          "GHA"
+        ],
+        "trips": [
+          "5cc1d10181a30e85c8d9ad4a",
+          "5cc1d101bc3e2bc2d8ca030d"
+        ]
+      },
+      "id": 12
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "a",
+      "contact": "",
+      "start-date": "",
+      "totalCost": "$29,319",
+      "tripId": "5cc1d10181a30e85c8d9ad4a",
+      "tripCountry": {
+        "currencies": [
+          {
+            "code": "XOF",
+            "name": "West African CFA franc",
+            "symbol": "Fr"
+          }
+        ],
+        "languages": [
+          {
+            "iso639_1": "fr",
+            "iso639_2": "fra",
+            "name": "French",
+            "nativeName": "français"
+          }
+        ],
+        "flag": "https://restcountries.eu/data/tgo.svg",
+        "name": "Togo",
+        "alpha2Code": "TG",
+        "alpha3Code": "TGO",
+        "capital": "Lomé",
+        "region": "Africa",
+        "subregion": "Western Africa",
+        "population": 7143000,
+        "timezones": [
+          "UTC"
+        ],
+        "borders": [
+          "BEN",
+          "BFA",
+          "GHA"
+        ],
+        "trips": [
+          "5cc1d10181a30e85c8d9ad4a",
+          "5cc1d101bc3e2bc2d8ca030d"
+        ]
+      },
+      "id": 13
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "zzzzzz",
+      "contact": "qqq",
+      "start-date": "30.04.2020",
+      "totalCost": "$29,319",
+      "tripId": "5cc1d10181a30e85c8d9ad4a",
+      "tripCountry": "Pleasant trek in outstanding Togo",
+      "id": 14
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": "3",
+      "children": "3",
+      "name": "asdfgh",
+      "contact": "asdfgh",
+      "start-date": "13.04.2020",
+      "totalCost": "$309,298",
+      "tripId": "5cc1d10107e2be6064ff9129",
+      "tripName": "Surprising jaunt in admirable United Arab Emirates",
+      "id": 15
     }
   ]
 }
