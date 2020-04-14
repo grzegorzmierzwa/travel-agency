@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styles from './HappyHourAd.scss';
 // import {Grid, Row} from 'react-flexbox-grid';
 // import Section from '../../layout/Section/Section';
+import {formatTime} from '../../../utils/formatTime';
 
 
 class HappyHourAd extends React.Component {
@@ -39,7 +40,7 @@ class HappyHourAd extends React.Component {
     if (countdown > 23) {
       announcement = promoDescription;
     } else {
-      announcement = this.getCountdownTime();
+      announcement = formatTime(this.getCountdownTime());
     }    
 
     return (
