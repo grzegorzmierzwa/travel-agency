@@ -2,9 +2,21 @@ import React from 'react';
 import styles from './Hero.scss';
 import PropTypes from 'prop-types';
 import HappyHourAd from '../../features/HappyHourAd/HappyHourAd';
+import DaysToSummer from '../../features/DaysToSummer/DaysToSummer';
+import moment from 'moment';
+
+
+const now = moment();
+const summer = moment('2020-04-21');
+const days = summer.diff(now, 'days');
+
+console.log(days);
 
 const Hero = ({variant = '', titleText, imageSrc, ...otherProps}) => (
   <div {...otherProps} className={styles.component + variant.split(' ').map(name => ' ' + (styles[name] || name)).join('')}>
+    <div className={styles.happyHour}>
+      <DaysToSummer days={days}/>
+    </div>
     <h2 className={styles.title}>{titleText}</h2>
     <img className={styles.image}  src={imageSrc} />
     <div className={styles.happyHour}>
