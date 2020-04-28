@@ -7,7 +7,7 @@ import moment from 'moment';
 
 
 const now = moment();
-const summer = moment('2020-04-21');
+const summer = moment('2020-06-21');
 const days = summer.diff(now, 'days');
 
 console.log(days);
